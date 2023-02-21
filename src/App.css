@@ -1,0 +1,19 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  background-color: #e2e2e2;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  height: calc(100vh - 62px);
+  width: 100vw;
+  overflow: hidden auto;
+  background: url("https://source.unsplash.com/random/900x900?architecture-interior");
+  background-size: cover;
+  background-repeat: no-repeat;
+}

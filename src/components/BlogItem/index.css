@@ -1,0 +1,32 @@
+.blog__item {
+  background-color: white;
+  border-bottom: 1px solid #e9e9ee;
+  box-sizing: border-box;
+  cursor: pointer;
+  height: 150px;
+  padding: 20px;
+  margin-bottom: 40px;
+  text-decoration: none;
+  color: black;
+  width: 70%;
+}
+
+.blog__item:hover {
+  background-color: #e9e9ee;
+}
+
+.blog__item__title {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  padding-left: 40px;
+}
+
+.blog__item__body {
+  padding-left: 40px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 75%;
+}
